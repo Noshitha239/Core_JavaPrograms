@@ -1,0 +1,281 @@
+/**
+ * 
+ */
+package com.gqt.Shopingcart;
+
+import java.util.Scanner;
+
+/**
+ * @author 91817
+ *
+ */
+public class Shopingcart {
+
+	/**
+	 * @param args
+	 */
+	// TODO Auto-generated method stub
+    //This is method for shoping cart
+	public static void CollectInput() {
+		Scanner sc=new Scanner(System.in);
+
+	}
+	public static void Ops() {
+		Scanner sc=new Scanner(System.in);
+		int choice = sc.nextInt();
+		switch(choice) {
+		case 1:{
+			System.out.println("Welcome to Furnitures..Please select the option what you want:\n"
+					+"1.Sofa \n"
+					+"2.chairs");
+			System.out.println("Choose your choice: ");
+			Options();
+			
+			break;
+		}
+		case 2:{
+			System.out.println("Welcome to blankets..Please select what you want:\n"
+					+"1. Blanket1\n"
+					+"2. blanket2");
+			O1();
+			break;
+		}
+		case 3:{
+			System.out.println("welcome to Corpets..Please select what you want:\n"
+						+"1. C1\n"
+						+"2. C2");
+			O3();
+			break;
+		}
+		case 4:{
+			System.out.println("welcome to Kitchen Decors..Please select what you want:\n"
+					+"1. K1\n"
+					+"2. K2");
+			O2();
+			break;
+		}
+		
+		case 5:{
+			System.out.println("Thank you");
+			System.exit(0);
+		}
+		case 6:{
+			main(null);
+		}
+		default:
+			System.out.println("");
+			main(null);
+
+		}
+	    main(null);
+		
+	}
+	
+	
+	
+	
+	//This is method for Furnitures
+	public static void Options() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Furnitures..Please select the option what you want:\n"
+					+"1. Sofas\n"
+					+"2. Chairs");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected Sofa..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected Chairs..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			case 4:{
+				main(null);
+			}
+			default:
+				System.out.println("");
+				main(null);
+
+			}	
+	}
+	public static void O3() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Corpets..Please select the option what you want:\n"
+					+"1. C1\n"
+					+"2. C1");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected C1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected C2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			case 4:{
+				main(null);
+			}
+			default:
+				System.out.println("");
+				main(null);
+
+			}	
+	}
+	
+	public static void O2() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Kitchen Decors..Please select the option what you want:\n"
+					+"1. K1\n"
+					+"2. k2");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected K1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected k2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			case 4:{
+				main(null);
+			}
+			default:
+				System.out.println("");
+				main(null);
+
+			}	
+	}
+	
+	public static void O1() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to blankets..Please select the option what you want:\n"
+					+"1. blanket1\n"
+					+"2. blanket2");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected Blanket1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected blanket2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			case 4:{
+				main(null);
+			}
+			default:
+				System.out.println("");
+				main(null);
+
+			}	
+	}
+	
+					
+	
+	
+	public static void main(String []args) {     
+		Scanner sc=new Scanner(System.in);
+		System.out.println("\t \t Welcome to Shoping cart");
+		System.out.println();
+		System.out.println("Please select the option what you want :\n"+"1. Home Decors\n"
+				+"2. Electronics\n"
+				+"3. Fashion\n"
+				+"4. Instamart\n"
+				+"5. Sports");
+		System.out.println("Choose your option: ");
+		int choice = sc.nextInt();
+		switch(choice) {
+		case 1:{
+			System.out.println("Welcome to Home Decors..Please select the option what you want:\n"
+					+"1. Furnitures\n"
+					+"2. Blankets\n"
+					+"3. Corpets\n"
+					+"4. Kitchen Decors");
+			System.out.println("Choose your choice: ");
+			int c = sc.nextInt();
+			CollectInput();
+			Options();
+			
+			
+			break;
+		}
+		case 2:{
+			System.out.println("Welcome to Electronics..Please select what you want:\n"
+					+"1. Mobiles\n"
+					+"2. Head Phones\n"
+					+"3. Laptops\n"
+					+"4. Tabs");
+			CollectInput();
+			break;
+		}
+		case 3:{
+			System.out.println("welcome to Fasion..Please select what you want:\n"
+						+"1. Men\n"
+						+"2. Women\n"
+						+"3. Children");
+			CollectInput();
+			break;
+		}
+		case 4:{
+			System.out.println("welcome to Instamart..Please select what you want:\n"
+					+"1. Fruits and Vegitables\n"
+					+"2. Juices\n"
+					+"3. Provisions");
+			CollectInput();
+			break;
+		}
+		case 5:{
+			System.out.println("welcome to Sports..Please select what you want:\n"
+					+"1. Sports wear\n"
+					+"2. Sports Shoes\n"
+					+"3. Sports Equipments");
+			CollectInput();
+			break;
+		}
+		case 6:{
+			System.out.println("Thank you");
+			System.exit(0);
+		}
+		case 7:{
+			main(null);
+		}
+		default:
+			System.out.println("");
+			main(null);
+
+		}	
+		
+	}
+}

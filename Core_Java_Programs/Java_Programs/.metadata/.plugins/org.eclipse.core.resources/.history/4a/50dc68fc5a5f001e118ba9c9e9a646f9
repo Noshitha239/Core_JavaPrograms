@@ -1,0 +1,30 @@
+class Human extends Thread{
+	@Override
+	public void run() {
+		if(Thread.currentThread().getName().equals("Entering the Bathroom")) {
+				}
+		if(Thread.currentThread().getName().equals("Using the Bathroom")) {
+			
+		}
+		if(Thread.currentThread().getName().equals("Left the Bathroom")) {
+			
+		}
+	}
+}
+public class Program9 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+        Human h1=new Human();
+        h1.setName("Boy");
+        Human h2=new Human();
+        h2.setName("Girl");
+        Human h3=new Human();
+        h3.setName("Others");
+        h1.start();
+        h2.start();
+        h3.start();
+        
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.gqt.StringinterviewQuestions;
+import java.util.Scanner;
+public class Sai29{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter string1: ");
+		String s=sc.nextLine();
+		System.out.println("Enter string2: ");
+		String s1=sc.nextLine();
+		String s3=" ";
+		for(int i=0;i<s.length();i++) {
+			if(s.charAt(i)==s1.charAt(i)) {
+				s3=s3+s1.charAt(i);
+			}
+			else {
+				System.out.println();
+			}
+		}
+		if(s==s3) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
+	}
+
+}

@@ -1,0 +1,108 @@
+package com.gqt.Quizgame;
+import java.util.*;
+
+import com.gqt.quizApp.project.QuizApplication;
+
+public class QuizGame {
+	//	private static Map<String, Quiz> quizzes = new HashMap<>();
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\t\t\t\t**********Welcome to the QuizGame**********");
+		System.out.println("Do you want to take a Quiz\n1.Yes\n2.No");
+		int op = sc.nextInt();
+		if (op==1){
+			takeQuiz(sc);
+		}
+		else if(op==2) {
+			System.exit(0);
+		}
+		else {
+			System.out.println("You Entered Invalid Option, Choose correct option.");
+			QuizGame.main(null);
+		}
+	}
+	private static void Quizquestions1(){
+		System.out.println("Welcome to the Java Quiz..");
+		JavaQuestions q= new JavaQuestions();
+		JavaQuiz.quiz();
+	}
+	private static void Quizquestions2(){
+		System.out.println("Welcome to the Java Quiz..");
+		PythonQuestions q= new PythonQuestions();
+		PythonQuiz.quiz();
+	}
+	private static void Quizquestions3(){
+		System.out.println("Welcome to the Java Quiz..");
+		JavaQuestions q= new JavaQuestions();
+		JavaQuiz.quiz();
+	}
+	private static void Quizquestions4(){
+		System.out.println("Welcome to the Java Quiz..");
+		JavaQuestions q= new JavaQuestions();
+		JavaQuiz.quiz();
+	}
+	public static void takeQuiz(Scanner sc) {
+		System.out.println("Enter which language do you want:\n1. Java\n2. Python\n3. HTML\n4. MSQL");
+		int quizName = sc.nextInt();
+		if(quizName == 1){
+			Quizquestions1();
+		}
+		else if(quizName == 2) {
+			Quizquestions2();
+		}
+		else if(quizName == 3) {
+			Quizquestions3();
+		}
+		else {
+			Quizquestions4();
+		}
+	}
+
+}
+
+//class Quiz {
+//	private String name;
+//	private List<Question> questions = new ArrayList<>();
+//	public Quiz(String name) {
+//		this.name = name;
+//	}
+//
+//	public String getName() {
+//		return name;
+//	}
+//
+//	public void addQuestion(Question question) {
+//		questions.add(question);
+//	}
+//
+//	public Question getQuestion(int index) {
+//		return questions.get(index);
+//	}
+//
+//	public int getNumQuestions() {
+//		return questions.size();
+//	}
+//}
+//class Question {
+//	private String question;
+//	private List<String> choices;
+//	private int correctChoice;
+//
+//	public Question(String question, List<String> choices, int correctChoice) {
+//		this.question = question;
+//		this.choices = choices;
+//		this.correctChoice = correctChoice;
+//	}
+//
+//	public String getQuestion() {
+//		return question;
+//	}
+//
+//	public List<String> getChoices() {
+//		return choices;
+//	}
+//
+//	public int getCorrectChoice() {
+//		return correctChoice;
+//	}
+//}

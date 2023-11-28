@@ -1,0 +1,48 @@
+package Interviewqestionsset1;
+import java.util.Scanner;
+public class Longestword6 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner sc = new Scanner(System.in);
+//		 int n=sc.nextInt();
+		  String s=sc.nextLine();
+	      String w = "";
+	      String lw = "";    
+	      String[] s1 = new String[100];    
+	      int length = 0;    
+	          
+//	      //Add extra space after string to get the last word in the given string    
+	      s = s + " ";    
+	          
+	      for(int i = 0; i < s.length(); i++){    
+	          //Split the string into words    
+	          if(s.charAt(i) != ' '){    
+	              w = w + s.charAt(i);    
+	          }    
+	          else{    
+	              //Add word to array words    
+	              s1[length] = w;    
+	              //Increment length    
+	              length++;    
+	              //Make word an empty string    
+	              w = "";    
+	          }    
+	      }            
+	      //Initialize small and large with first word in the string    
+	      lw = s1[0];    
+	          
+	      //Determine smallest and largest word in the string    
+	      for(int k = 0; k < length; k++){    
+	              
+	    
+	   
+	          //If length of large is less than any word present in the string    
+	          //Store value of word into large    
+	          if(lw.length() < s1[k].length())    
+	              lw = s1[k];    
+	      }     
+	      System.out.println("Largest word: " + lw);    
+	  }   
+	
+}
+

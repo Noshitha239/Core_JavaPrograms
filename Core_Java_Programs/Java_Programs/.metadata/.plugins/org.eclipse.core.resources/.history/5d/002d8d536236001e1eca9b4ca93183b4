@@ -1,0 +1,25 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MaxnoofChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+        System.out.println("Enter string: ");
+        String s1=sc.nextLine();
+        int temp=0;
+        for(int i=0;i<s1.length();i++) {
+        	
+        	temp=s1.charAt(i);
+        	
+        	System.out.println("The value of "+s1.charAt(i)+" is "+temp);
+        	
+        		for(int k=0;k<s1.length();k++) {
+        			if(s1(charAt(i)>charAt(k))||s1(charAt(i)<charAt(k)))
+        		}
+        }
+	
+
+}
+}

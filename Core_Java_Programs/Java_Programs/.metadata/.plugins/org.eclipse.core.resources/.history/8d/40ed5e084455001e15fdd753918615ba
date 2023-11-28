@@ -1,0 +1,28 @@
+package Interviewqestionsset1;
+import java.util.Scanner;
+public class Longestword6 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a sentence");
+		String s=sc.nextLine();
+		String s1="";
+		String lw="";
+		for(int i=0; i<s.length(); i++)
+		{
+			if(s.charAt(i)!=' ')
+			{
+				s1=s1+s.charAt(i);
+			}
+			else
+			{
+				if(s1.length()>lw.length())
+				{
+					lw=s1;
+				}
+				s1="";
+			}
+		}
+		System.out.println(lw);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Jdbc.EmployeeCRUD&apos; to &apos;EmployeeCRUD_Operations&apos;&#x0D;&#x0A;- Original project: &apos;Jdbc&apos;&#x0D;&#x0A;- Original element: &apos;Jdbc.EmployeeCRUD&apos;&#x0D;&#x0A;- Renamed element: &apos;Jdbc.EmployeeCRUD_Operations&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EmployeeCRUD&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Jdbc{EmployeeCRUD.java[EmployeeCRUD" matchStrategy="1" name="EmployeeCRUD_Operations" qualified="false" references="true" similarDeclarations="false" stamp="1701150867949" textual="false" version="1.0"/>
+</session>

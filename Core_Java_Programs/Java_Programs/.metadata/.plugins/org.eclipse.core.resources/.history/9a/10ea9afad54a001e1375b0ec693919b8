@@ -1,0 +1,76 @@
+
+abstract class Shapes{
+	double area;
+	abstract void collectData();
+	abstract void calculate();
+	void display() {
+		System.out.println(area);
+	}
+}
+class circle extends Shapes{
+	private double r;
+	final double pi=3.147;
+	@Override
+	void collectData() {
+		System.out.println("Data collected");
+	}
+	void calculate() {
+		System.out.println("Calculated");
+	}
+	double getR() {
+		return r;
+	}
+	double getPi() {
+		return pi;
+	}
+}
+class Square extends Shapes{
+	private double side;
+	@Override
+	void collectData() {
+		System.out.println("Data collected");
+	}
+	void calculate() {
+		System.out.println("Calculated");
+	}
+	double getSide() {
+		return side;
+	}
+}
+class Rectangle extends Shapes{
+	private double l;
+	private double b;
+	@Override
+	void collectData() {
+		System.out.println("Data collected");
+	}
+	void calculate() {
+		System.out.println("Calculated");
+	}
+
+	double getL() {
+		return l;
+	}
+	double getB() {
+		return b;
+	}
+	
+	class Geometry{
+		void permit(Shapes s) {
+			s.collectData();
+			s.calculate();
+			s.display();
+		}
+	}
+	public class MultipleOOps {
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			circle c=new circle();
+			Square s1=new Square();
+			Rectangle r=new Rectangle();
+			Geometry a= new Geometry();
+			a.permit(c);
+			a.permit(s1);
+			a.permit(r);
+		}
+	}

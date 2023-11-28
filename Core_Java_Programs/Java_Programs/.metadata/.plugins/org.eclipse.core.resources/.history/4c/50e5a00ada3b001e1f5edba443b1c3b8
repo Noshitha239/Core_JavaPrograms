@@ -1,0 +1,80 @@
+/**
+ * 
+ */
+package com.gqt.Shopingcart;
+
+import java.util.Scanner;
+
+/**
+ * @author 91817
+ *
+ */
+public class Shopingcart {
+
+	/**
+	 * @param args
+	 */
+	// TODO Auto-generated method stub
+	
+	public static void CollectInput() {
+		Scanner sc=new Scanner(System.in);
+		
+	}
+	public static void main(String []args) {     
+		Scanner sc=new Scanner(System.in);
+		System.out.println("\t \t Welcome to Shoping cart");
+		System.out.println();
+		System.out.println("Please select the option what you want :\n"+"1. Home Decors\n"
+				+"2. Electronics\n"
+				+"3. Fashion\n"
+				+"4. Instamart\n"
+				+"5. Sports");
+		int choice = sc.nextInt();
+		switch(choice) {
+		case 1:{
+			System.out.println("Home Decors\n");
+			CollectInput();
+			break;
+		}
+		case 2:{
+			System.out.println("Electronics\n");
+			CollectInput();
+			break;
+		}
+		case 3:{
+			System.out.println("Fasion\n");
+			CollectInput();
+			break;
+		}
+		case 4:{
+			System.out.println("Instamart\n");
+			CollectInput();
+			break;
+		}
+		case 5:{
+			System.out.println("Sports\n");
+			CollectInput();
+			break;
+		}
+		case 6:{
+			System.out.println("Thank you");
+			System.exit(0);
+		}
+		case 7:{
+			main(null);
+		}
+		default:
+			System.out.println("");
+			main(null);
+
+		}	
+		main(null);
+	}
+	public static void CollectInput() {
+		Scanner sc=new Scanner(System.in);
+		
+	}
+	
+	
+
+}

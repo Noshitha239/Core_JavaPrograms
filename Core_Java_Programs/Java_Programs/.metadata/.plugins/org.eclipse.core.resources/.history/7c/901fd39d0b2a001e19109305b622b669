@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class AdditionofArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of an array: ");
+        int n=sc.nextInt();
+        int a1[]=new int[n];
+        int a2[]=new int[n];
+        int a3[]=new int[n];
+        System.out.println("Enter first array values: "+n);
+        for(int i=0;i<a1.length;i++) {
+        	a1[i]=sc.nextInt();
+        	
+        	
+        	
+        }
+        System.out.println("Enter second array values: "+n);
+        for(int i=0;i<a1.length;i++) {
+        	a2[i]=sc.nextInt();
+        	
+        }
+       //storing array values
+        for(int i=0;i<a1.length;i++) {
+        	a3[i]=a1[i]+a2[i];
+        }
+        //adding two arrays values
+        System.out.println("Enter sum of two arrays: "+n);
+        for(int i=0;i<a3.length;i++) {
+        	System.out.print(a3[i]);
+        }
+        
+	}
+
+}

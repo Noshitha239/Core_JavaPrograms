@@ -1,0 +1,37 @@
+import java.util.*;
+public class Arraysum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a1[][]=sc.new int[][];
+        int b1[][]=sc.new int[][];
+        int c1[][]=sc.new int[][];
+        for(int i=0;i<=a1.length;i++) {
+        	for(int j=0;j<=a1[i].length;i++) {
+                	a1[i][j]=sc.nextInt();
+        	}
+        }
+        for(int i=0;i<=b1.length;i++) {
+        	for(int j=0;j<=b1[i].length;i++) {
+        	    	
+                	b1[i][j]=sc.nextInt();
+        	}
+        }
+        for(int i=0;i<=c1.length;i++) {
+        	for(int j=0;j<=c1[i].length;i++) {
+                	c1[i][j]=a1[i][j];
+        	    }
+        	
+        }
+        for(int i=0;i<=c1.length;i++) {
+        	for(int j=0;j<=c1[i].length;i++) {
+                	System.out.println(c1[i][j]);
+        	    
+        	}
+        }
+        
+	}
+
+}

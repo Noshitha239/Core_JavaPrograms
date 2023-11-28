@@ -1,0 +1,24 @@
+package com.gqt.StringAssignments;
+import java.util.Scanner;
+public class Oddindexwithevenchar {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter string");
+		String s1=sc.next();
+		char temp=' ';
+		String temp1="";
+		char temp2=' ';
+		for(int i=0;i<s1.length();i++){
+			for(int j=i+1;j<s1.length();j++)
+			if(i%2==0) {
+				temp=s1.charAt(i);
+				temp2=s1.charAt(j);
+				temp=temp2;
+				temp2=temp;
+			}
+			i=i+1;
+		}
+		System.out.println(temp2);
+	}
+}

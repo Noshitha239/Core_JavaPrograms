@@ -1,0 +1,40 @@
+package com.gqt.StringinterviewQuestions;
+
+import java.util.Scanner;
+
+public class splitsai3 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String: ");
+		String s=sc.nextLine();
+		int s_count=0;
+		String s1=" ";
+		for(int i=0;i<s.length();i++){
+			if(s.charAt(i)==' ') {
+				s_count=s_count+1;
+			}
+		}
+		for(int i=0;i<s.length();i++) {
+			if(s.charAt(0)>='a' && s.charAt(0)<='z')
+			{
+			    s=s+(char)(s.charAt(0)-32);    
+			}
+			for(int j=1;j<s.length();i++)
+			{
+			    s=s+s.charAt(i);
+			}
+	        System.out.println(s);
+		
+		}	
+}
+
+
+
+
+
+}
+
+
+
+

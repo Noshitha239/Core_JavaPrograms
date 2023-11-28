@@ -1,0 +1,13 @@
+import java.util.*;
+public class Annagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.next();
+        System.out.println("Enter the string1: ");
+        String s2=sc.next();
+        
+	}
+
+}

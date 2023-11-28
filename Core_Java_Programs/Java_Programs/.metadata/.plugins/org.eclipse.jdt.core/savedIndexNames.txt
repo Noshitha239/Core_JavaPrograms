@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\eclipse\GQT codes\.metadata\.plugins\org.eclipse.jdt.core
+2642841289.index
+1802980682.index
+3010713937.index
+4254707024.index
+692422215.index
+553204970.index
+2997397591.index
+2087255469.index
+1512115.index
+4098157214.index
+2561708838.index
+1865797976.index
+1123337282.index
+900178439.index
+2268225495.index
+433513592.index
+63322037.index
+1071192822.index
+2178987511.index

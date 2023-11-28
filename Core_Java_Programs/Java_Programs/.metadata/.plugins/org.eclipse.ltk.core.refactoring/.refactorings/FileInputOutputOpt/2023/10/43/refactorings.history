@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.gqt.FileOperations.Cricketer.java&apos; to &apos;Launch.java&apos;&#x0D;&#x0A;- Original project: &apos;FileInputOutputOpt&apos;&#x0D;&#x0A;- Original element: &apos;com.gqt.FileOperations.Cricketer.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.gqt.FileOperations.Launch.java&apos;" description="Rename compilation unit &apos;Cricketer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.gqt.FileOperations{Cricketer.java" name="Launch.java" references="false" stamp="1698379028656" version="1.0"/>
+</session>

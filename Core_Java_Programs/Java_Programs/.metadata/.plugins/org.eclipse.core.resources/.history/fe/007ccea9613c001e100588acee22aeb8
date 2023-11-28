@@ -1,0 +1,121 @@
+/**
+ * 
+ */
+package com.gqt.Shopingcart;
+
+import java.util.Scanner;
+
+/**
+ * @author 91817
+ *
+ */
+public class Shop {
+	public static void Furniture() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected Sofas..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected Chairs..Thank you for Purchasing");
+				break;
+			}	
+			}
+			System.exit(0);
+	}
+	public static void Blankets() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Blankets..Please select the option what you want:\n"
+					+"1. Blanket1\n"
+					+"2. Blanket2");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected Blanket1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected Blanket2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			
+			default:
+				System.out.println("");
+				
+			}
+			System.exit(0);
+	}
+	public static void Corpets() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Corpets..Please select the option what you want:\n"
+					+"1. Corpet1\n"
+					+"2. Corpet2");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected Corpet1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected Corpet2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			
+			default:
+				System.out.println("");
+				
+			}
+			System.exit(0);
+	}
+	
+	public static void Kitchen() {
+		Scanner sc=new Scanner(System.in);   
+			System.out.println();
+			
+			System.out.println("Welcome to Kitchen Decors..Please select the option what you want:\n"
+					+"1. K1\n"
+					+"2. k2");
+			System.out.println("Choose your choice: ");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1:{
+				System.out.println("You are selected K1..Thank you for Purchasing");
+				break;
+			}
+			case 2:{
+				System.out.println("You are selected k2..Thank you for Purchasing");
+				break;
+			}
+			case 3:{
+				
+				System.exit(0);
+			}
+			
+			default:
+				System.out.println("");
+				
+			}
+			System.exit(0);
+	}
+	
+	
+}

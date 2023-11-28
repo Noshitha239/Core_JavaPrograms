@@ -1,0 +1,23 @@
+//29.write aa program to find the given string is sorted with a specified string or
+//not .Example(String1="JavaScript" ,specified string is"java" the output is "true")
+package InterviewquestionsSet2;
+import java.util.*;
+public class Statingwithsubstrign29 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner sc=new Scanner(System.in);
+			System.out.println("enter the string 1:");
+			String s=sc.next();
+			s=s.toLowerCase();
+			System.out.println("enter the string2:");
+			String s2=sc.next();
+			s2=s2.toLowerCase();
+			if(s.contains(s2)==true) {
+				System.out.println("true");
+			}else
+				{
+				System.out.println("False");
+			}
+	}
+
+}
